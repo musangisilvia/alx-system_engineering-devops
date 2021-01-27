@@ -1,5 +1,2 @@
 #!/bin/bash
-#My first script
-# variable called cwd to store path
-cwd = $(/usr/bin/pwd)
-echo cwd
+pwd
