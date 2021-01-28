@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -mFav && echo
+ls -mFa && echo
