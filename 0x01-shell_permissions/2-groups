@@ -1,2 +1,2 @@
-B#!/bin/bash
-id -G
+#!/bin/bash
+id -Gn
