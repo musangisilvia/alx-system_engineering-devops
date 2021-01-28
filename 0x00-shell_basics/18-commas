@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -mFa && echo
+ls -Fam && echo -e
+
