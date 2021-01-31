@@ -8,6 +8,8 @@
 > script that prints a confused smiley
 
 ## 2-hellofile
+> script to display the contents of /etc/passwd
+
 ## 3-twofiles
 ## 4-lastlines
 ## 5-firstlines
