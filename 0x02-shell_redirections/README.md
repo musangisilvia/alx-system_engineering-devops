@@ -11,8 +11,13 @@
 > script to display the contents of /etc/passwd
 
 ## 3-twofiles
+> display contents of two files
+
 ## 4-lastlines
+> displat the last ten lines of a file
+
 ## 5-firstlines
+> display the first 10 lines of a file
 ## 6-third_line
 ## 7-file
 ## 8-cwd_state
