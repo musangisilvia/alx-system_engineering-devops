@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "Holberton School\n">"\*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)"
+printf "Holberton School\n">"\\*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)"
