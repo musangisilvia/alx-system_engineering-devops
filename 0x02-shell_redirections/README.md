@@ -52,8 +52,19 @@
 > display line with a matching pattern and three lines after
 
 ## 17-hidethisword
+> hid the pattern specified in a file
+
 ## 18-letteronly
+> display only line tha starte with an alphabet
+
 ## 19-AZ
+> find and replace characters in the specified input
+
 ## 20-hiago
+> find and remove a character from the input given.
+
 ## 21-reverse
+> reverse the input given 
+
 ## 22-users_and_homes
+> display users and their directories based on the /etc/passwd file.
