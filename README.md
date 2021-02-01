@@ -1,6 +1,8 @@
-# Shell Basics
+## Shell Basics
 > Terminals are a link to shells.
-> Shell scripting gets  easier with more practice.
-```
-The script displays the absolute path of the current working Directory
-```
+
+## Shell Permissions
+> User, Group and Others can have permissions to read write or execute a file / directory
+
+## Shell Redirections
+> Output of commands can be redirected to files.  Files can be used as input to commands.
