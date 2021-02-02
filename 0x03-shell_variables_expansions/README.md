@@ -1,5 +1,5 @@
 # Shell Variable Expansions
-
+``` Mandatory ```
 ## 0-alias
 > a script that creates an alias.
 - Name: ls
@@ -64,7 +64,13 @@
 - The number in base 10 is stored in the environment variable DECIMAL
 - The script displays the number in base 16, followed by a new line
 
-# Advanced Tasks
+``` Advanced Tasks ```
 ## 100-rot13
 > a script that encodes and decodes text using the rot13 encryption. 
 - Assuming ASCII
+
+## 101-odd
+> a script that prints every other line from the input, starting with the first line.
+
+## 102-water_and_stir
+> a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
