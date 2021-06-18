@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# This script displays numbers from 1 to 100 with
+# multiples of 3 replaced with Fizz
+# multiples of 5 replaced with Buzz
+# multiples of 3 and 5 replaced with FizzBuzz
+
+n=1
+
+while [ $n -le 100 ]
+do
+    if [ $((n % 3)) -eq 0 -a $((n % 5)) -eq 0 ]
+    then
+        echo "FizzBuzz"
+    elif [ $((n % 5)) -eq 0 ]
+    then
+        echo "Buzz"
+    elif [ $((n % 3)) -eq 0 ]
+    then
+        echo "Fizz"
+
+    else
+        echo "$n"
+
+    fi
+    n=$((n+1))
+done
