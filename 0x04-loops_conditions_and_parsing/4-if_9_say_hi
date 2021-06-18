@@ -1,16 +1,15 @@
 #!/usr/bin/env bash
-# This scripts prints Holberton School 10 times using the while loop
+# This scripts prints Holberton School  times using the while loop
 
 i=1
 num=9
 
 while [ $i -le 10 ]
 do
+  echo "Holberton School"
   if [ $i == $num ]
   then
   echo "Hi"
-  else
-  echo "Holberton School"
   fi
 
   i=$((i+1))
