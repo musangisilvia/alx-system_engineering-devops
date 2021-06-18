@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# This scripts prints Holberton School 10 times using the while loop
+
+i=1
+bl=4
+gl=8
+
+while [ $i -le 10 ]
+do
+  if [ $i == $bl ]
+  then
+  echo "bad luck"
+  elif [ $i == $gl ]
+  then
+  echo "good luck"
+  else
+  echo "Holberton School"
+  fi
+
+  i=$((i+1))
+done
