@@ -1,2 +1,4 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/[A-Z]/).join
+# Script matches only uppercase letters in string
+
+puts ARGV[0].scan(/[A-Z]+/).join
