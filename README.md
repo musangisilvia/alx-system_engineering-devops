@@ -41,4 +41,6 @@ Other concepts covered in this project are:
 - [TCP and UDP](https://alx-intranet.hbtn.io/rltoken/uJbs8E9-FyATfsELpmtTIg)
 - [Ping/ICMP](https://alx-intranet.hbtn.io/rltoken/3zBgO6r2M1Q8lUVt9g8aJw)
 - [netstat](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjWt_f5-83xAhWkxoUKHf-DBVcQFjAAegQIBBAD&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNetstat&usg=AOvVaw1pe30q1XUDUVPDLHe15bj4)
+- [host file](https://alx-intranet.hbtn.io/rltoken/4_MBpFTulKliFM69jCPzOQ)
+- [Netcat](https://alx-intranet.hbtn.io/rltoken/OR0lOEwAw9I1Rj4aGp1Ljg)
 
