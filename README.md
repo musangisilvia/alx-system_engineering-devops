@@ -29,5 +29,16 @@ OSI (Open Systems Interconnection) is an abstract model to describe layered comm
 It is organized from the lowest level to the highest level:
 
 - The lowest level: layer 1 which is for transmission on physical layers with electrical impulse, light or radio signal
-- The highest level: layer 7 which is for application specific communication like SNMP for emails, HTTP for your web browser, etc
-The OSI model is a concept, it’s not even tangible. The OSI model doesn’t perform any functions in the networking process. It is a conceptual framework so we can better understand complex interactions that are happening. Most of the functionality in the OSI model exists in all communications systems.
+- The highest level: layer 7 which is for application specific communication like SNMP for emails, HTTP for your web browser, etc.
+
+Other concepts covered in this project are:
+
+- [Different Types of Networks](https://alx-intranet.hbtn.io/rltoken/XW3ZGm5Ya_a8XVDXcAKT_A)
+- [MAC Address](https://alx-intranet.hbtn.io/rltoken/j-Wp-YRvFTVP04SpIeRzHQ)
+- [IP Address](https://alx-intranet.hbtn.io/rltoken/HaZZvrmGaQ3U7ZLDYgZb6w)
+- [Public and Private Addresses](https://alx-intranet.hbtn.io/rltoken/OPJCZYuWSEXLIZOqU9Uc0A)
+- [IPv4 and IPv6](https://alx-intranet.hbtn.io/rltoken/M8g-egWLlldTl6Y0QECdwA)
+- [TCP and UDP](https://alx-intranet.hbtn.io/rltoken/uJbs8E9-FyATfsELpmtTIg)
+- [Ping/ICMP](https://alx-intranet.hbtn.io/rltoken/3zBgO6r2M1Q8lUVt9g8aJw)
+- [netstat](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjWt_f5-83xAhWkxoUKHf-DBVcQFjAAegQIBBAD&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNetstat&usg=AOvVaw1pe30q1XUDUVPDLHe15bj4)
+
