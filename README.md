@@ -44,3 +44,9 @@ Other concepts covered in this project are:
 - [host file](https://alx-intranet.hbtn.io/rltoken/4_MBpFTulKliFM69jCPzOQ)
 - [Netcat](https://alx-intranet.hbtn.io/rltoken/OR0lOEwAw9I1Rj4aGp1Ljg)
 
+## 0x0A-configuration_management
+
+Configuration management is the process of systematically handling changes to a system in a way that maintains integrity
+over time.
+It is broadly used to refere to server configuration management
+
