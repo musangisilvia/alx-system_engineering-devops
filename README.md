@@ -50,3 +50,8 @@ Configuration management is the process of systematically handling changes to a 
 over time.
 It is broadly used to refere to server configuration management
 
+## 0x0B-ssh
+
+SSH is a secure protocol used as the primary means of connecting to Linux serveers remotely. It provides a text-based interface by
+spawning a remote shell.
+
