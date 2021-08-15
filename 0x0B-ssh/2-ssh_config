@@ -1,0 +1,9 @@
+# config file to connect to server without requiring a passphrase everytime
+
+Host *
+    PasswordAuthentication no
+    IdentityFile ~/.ssh/holberton
+    SendEnv LANG LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials no
