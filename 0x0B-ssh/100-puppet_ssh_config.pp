@@ -1,13 +1,13 @@
 # set up client ssh config to connect to server without typing password
 
-include 'ssh::client'
+file_line { 'PasswordAuthentication':
+  ensure => 'present',
+  path   => '/etc/ssh/ssh_config',
+  line   => 'PasswordAuthentication no',
+}
 
-class { 'ssh::client': add_default_entry => false}
-ssh::client::host_config_entry{ '*':
-  passwordputhentication    => no,
-  identityfile              => ~/.ssh/holberton,
-  sendenv                   => 'LANG LC_*',
-  hashknownhosts            => yes,
-  gssapiauthentication      => yes,
-  gssapidelegatecredentials => no,
+file_line { 'IdentityFile':
+  ensure => 'present',
+  path   => '/etc/ssh/ssh_config',
+  line   => 'IdentityFile ~/.ssh/holberton',
 }
