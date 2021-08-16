@@ -55,3 +55,20 @@ It is broadly used to refere to server configuration management
 SSH is a secure protocol used as the primary means of connecting to Linux serveers remotely. It provides a text-based interface by
 spawning a remote shell.
 
+## 0x0C-web_server
+
+Concepts covered in this project are:
+* The DNS
+* Main types of records in the DNS
+* A webserver and how it works
+* CI/CD
+* Docker
+* Web Stack Debugging
+* NginX and how to configure it
+* Child processes
+* Root and Subdomain
+* HTTP
+* Log files on Linux
+* scp
+* curl
+
