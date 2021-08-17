@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 # Script to install nginx on server
 
-sudo apt-get update
-sudo apt-get install -y nginx
+apt-get update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+
 echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html
 
 sed -i '37i\rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
-sudo service nginx start
+service nginx start
