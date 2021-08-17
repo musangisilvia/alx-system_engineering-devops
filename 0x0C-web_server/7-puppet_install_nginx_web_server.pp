@@ -8,7 +8,7 @@ file { '/var/www/html/index.html':
   content => 'Holberton School',
 }
 
-file_line { 'permanently-removed':
+file_line { 'add-config':
   ensure => 'present',
   path   => '/etc/nginx/sites-available/default',
   after  => 'listen 80 default server;',
