@@ -11,7 +11,7 @@ file { '/var/www/html/index.html':
 file_line { 'add-rewrite':
   ensure => 'present',
   path   => '/etc/nginx/sites-available/default',
-  after  => 'listen 80 default server;',
+  after  => 'root /var/www/html;',
   line   => 'rewrite ^/redirect_me https://www.youtube.com/watch?v=QH@-TGUlwu4 permanent;',
 }
 
