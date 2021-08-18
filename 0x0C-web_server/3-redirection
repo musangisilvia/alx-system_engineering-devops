@@ -8,4 +8,4 @@ ufw allow 'Nginx HTTP'
 echo "Holberton School" >> /var/www/html/index.html
 
 sed -i '37i\rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
-service nginx start
+sudo service nginx start
