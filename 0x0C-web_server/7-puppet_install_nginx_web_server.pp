@@ -15,13 +15,6 @@ file_line { 'add-rewrite':
   line   => 'rewrite ^/redirect_me https://www.youtube.com/watch?v=QH@-TGUlwu4 permanent;',
 }
 
-file_line { 'add_return':
-  ensure => 'present',
-  path   => '/etc/nginx/sites-available/default',
-  after  => 'rewrite ^/redirect_me https://www.youtube.com/watch?v=QH@-TGUlwu4 permanent;',
-  line   => 'return 301'
-}
-
 service { 'nginx':
   ensure  => running,
   require => Package['nginx'],
