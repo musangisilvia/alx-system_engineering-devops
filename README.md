@@ -72,3 +72,8 @@ Concepts covered in this project are:
 * scp
 * curl
 
+## 0x0F-load_balancer
+
+This project covers the following concepts
+* HAProxy and Load Balancing Concepts
+* HTTP headers
