@@ -4,11 +4,6 @@ package { 'nginx':
   ensure => 'installed',
 }
 
-file { '/var/www/html/index.html':
-  require => Package['nginx'],
-  content => 'Holberton School',
-}
-
 file_line { 'add_header':
   ensure  => 'present',
   require => Package['nginx'],
@@ -19,6 +14,6 @@ file_line { 'add_header':
 }
 
 service { 'nginx':
-  ensure  => running
+  ensure  => running,
   require => File_line['add_header'],
 }
