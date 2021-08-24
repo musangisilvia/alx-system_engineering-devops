@@ -72,6 +72,10 @@ Concepts covered in this project are:
 * scp
 * curl
 
+## 0x0E-web_stack_debugging_1
+
+Debugging and fixing nginx
+
 ## 0x0F-load_balancer
 
 This project covers the following concepts
