@@ -82,4 +82,10 @@ This project covers the following concepts
 * HAProxy and Load Balancing Concepts
 * HTTP headers
 
+#3 0x10-https_ssl
+
+Hyper Text Transfer Protocol Secure (HTTPS) is the secure version of HTTP. It ensures that all communications between your browser and wesite are encrypted.
+SSL forms the backbone of our secure Internet and protects sensitive information as it travels across the world's computer networks. It encrypts information, provides authentication and trust.
+Physical displays of SSL are a padlock or green address bar in a browser.
+
 ## END
