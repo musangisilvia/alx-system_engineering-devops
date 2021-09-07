@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# script to configure container to run nginx as nginx user, 7 lines or less
+
+pkill apache2
+sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default
+chown -R nginx /etc/nginx /var/log/nginx /usr/share/nginx /run/nginx.pid
+chmod 777 /etc/nginx/nginx.conf
+sudo -u nginx nginx
