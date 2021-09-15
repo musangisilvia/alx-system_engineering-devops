@@ -15,15 +15,13 @@ if __name__ == "__main__":
     empname = requests.get("https://jsonplaceholder.typicode.com/users/{}"
                            .format(empId)).json().get("name")
 
-    tasks = 0  # total number of tasks
     c_tasks = []  # list of completed tasks
-    r = requests.get("https://jsonplaceholder.typicode.com/todos").json()
-
+    r = requests.get("https://jsonplaceholder.typicode.com/users/{}/todos"
+                     .format(empId)).json()
+    tasks = len(r)
     for task in r:
-        if task.get("userId") == int(empId):
-            tasks += 1
-            if task.get("completed"):
-                c_tasks.append(task.get("title"))
+            if task["completed"]:
+                c_tasks.append(task["title"])
 
     print("Employee {} is done with tasks({:d}/{:d}):"
           .format(empname, len(c_tasks), tasks))
