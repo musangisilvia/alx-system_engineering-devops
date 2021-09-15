@@ -14,7 +14,7 @@ from sys import argv
 if __name__ == "__main__":
     empId = argv[1]
     empname = requests.get("https://jsonplaceholder.typicode.com/users/{}"
-                           .format(empId)).json().get("name")
+                           .format(empId)).json().get("username")
 
     tasks = 0  # total number of tasks
     c_tasks = []  # list of completed tas
