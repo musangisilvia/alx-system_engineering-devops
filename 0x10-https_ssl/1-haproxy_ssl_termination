@@ -30,19 +30,18 @@ defaults
   errorfile 502 /etc/haproxy/errors/502.http                                                          
   errorfile 503 /etc/haproxy/errors/503.http                                                          
   errorfile 504 /etc/haproxy/errors/504.http                                                                                                                                                      
-frontend local_server                                                                                       
-  bind *:80                                                                                                                                                                                               
-  # for renewall purposes                                                                             
-  bind *:443 ssl crt /etc/ssl/www.musangi.tech/www.musangi.tech.pem                                                                                                                                       
-  # Test URI te see if its aletsencrypt request                                                       
-  acl letsencrypt-acl path_beg /.well-known/acme-challenge/                                           
-  use_backend letsencrypt-backend if letsencrypt-acl                                                                                                                                                      
-   default_backend my_web_servers                                                                                                                                                                  
-backend letsencrypt-backend                                                                                 
-   server letsencrypt 127.0.0.1:8888                                                                                                                                                               
-backend my_web_servers                                                                                      
-  mode http                                                                                           
-  balance roundrobin                                                                                  
-  option forwardfor                                                                                   
-  server 167-web-01 35.196.21.97                                                                      
-  server 167-web-02 34.139.18.218
+listen local_server
+  bind *:80
+  bind *:443 ssl crt /etc/ssl/www.musangi.tech/www.musangi.tech.pem
+  mode http
+  stats enable
+  stats uri /haproxy?stats
+  balance roundrobin
+  option httpclose
+  option forwardfor
+  server 167-web-01 35.196.21.97:80 check
+  server 167-web-02 34.139.18.218:80 check
+  # Test URI te see if its aletsencrypt request
+  acl letsencrypt-acl path_beg /.well-known/acme-challenge/
+  use-server letsencrypt-se if letsencrypt-acl
+  server letsencrypt-se 35.229.79.160:8888 weight 0
