@@ -3,14 +3,13 @@
     A python script that, using a REST API, for a given
     employee ID, returns information about his/her TODO
     list progress and exports it in CSV format in
-    python file.
+    json file.
 """
 
 
-from sys import argv
-import requests
 import json
-
+import requests
+from sys import argv
 
 if __name__ == "__main__":
     empId = argv[1]
