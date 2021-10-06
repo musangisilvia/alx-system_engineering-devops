@@ -25,4 +25,4 @@ The root cause was the syntax error in the rewrite directive added to the /etc/n
 - Ensure that status of a service whose configuration file has been altered is checked after restart/reload. 
 - Double check that the correct syntax is being used in the configuration files before closing the file and saving it.
 
-![dusting hands off](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fsearch%2Fdust-off-hands-gifs&psig=AOvVaw2MtwCdq2A1Wo7d-BtVBS4R&ust=1633602885323000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJiZnJLLtfMCFQAAAAAdAAAAABAD)
+![dusting hands off](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmemegenerator.net%2Finstance%2F67221128%2Fbuddy-the-elf-i-just-like-to-double-check-double-checking-is-my-favorite&psig=AOvVaw1pI-vlZmzSb1jDtLyanZzq&ust=1633603131149000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCIiI8IjMtfMCFQAAAAAdAAAAABAD)
